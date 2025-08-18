@@ -248,7 +248,7 @@ CORS configuration
 📊 Database Design
 The database schema for the Book Rental Management System is designed to efficiently manage books and rentals. The Entity-Relationship (ER) diagram provides a clear overview of the database structure, including tables, relationships, and constraints.
 
-📄 ER Diagram: View the detailed ER diagram here.
+📄 ER Diagram: View the detailed ER diagram here.-https://drive.google.com/file/d/1_ihyl5jQ4hAHK1uCoFpvSAPMmth3tkXT/view?usp=sharing
 
 Key entities:
 
