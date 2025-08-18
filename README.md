@@ -27,7 +27,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/book_rental_db
     username: root
-    password: your_password
+    password: my_password(hide)
 
 Option B: H2 Database (Demo)
 No configuration needed - just run with H2 profile:
