@@ -21,8 +21,8 @@ A comprehensive **Spring Boot REST API** for managing book rentals with clean DT
 
 ### 1. Clone & Setup
 ```bash
-git clone <repository-url>
-cd "Book Rental Management System - Copy"
+git clone <https://github.com/sapunethmini/Book-Rental-Management-System-Backend.git>
+
 ```
 
 ### 2. Database Configuration
@@ -33,7 +33,7 @@ Update `src/main/resources/application.yml`:
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/book_rental_db
-    username: your_username
+    username: root
     password: your_password
 ```
 
@@ -58,8 +58,6 @@ mvn spring-boot:run -Dspring.profiles.active=h2
 ### 4. Access the Application
 - **API Base URL:** http://localhost:8080
 - **Swagger UI:** http://localhost:8080/swagger-ui.html
-- **H2 Console (if using H2):** http://localhost:8080/h2-console
-- **API Documentation:** [API_DOCUMENTATION.md](./API_DOCUMENTATION.md)
 
 ## 📋 API Endpoints Overview
 
@@ -72,7 +70,7 @@ mvn spring-boot:run -Dspring.profiles.active=h2
 | GET | `/api/books/{id}` | Get book by ID |
 | PUT | `/api/books/{id}` | Update book |
 | DELETE | `/api/books/{id}` | Delete book |
-| GET | `/api/books/search` | Search books |
+
 
 ### 🏠 Rentals API
 | Method | Endpoint | Description |
@@ -245,7 +243,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 For questions or support:
-- 📖 Check the [API Documentation](./API_DOCUMENTATION.md)
 - 🐛 Create an issue for bugs
 - 💡 Submit feature requests via issues
 
