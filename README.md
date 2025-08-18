@@ -9,7 +9,7 @@ A comprehensive **Spring Boot REST API** for managing book rentals with clean DT
 - 🏠 **Rental Management** - Create rentals, track books, handle returns
 - ✅ **Jakarta Validation** - Proper input validation with custom error messages
 - 🧪 **Comprehensive Testing** - 22 JUnit test cases with 100% pass rate
-- 📖 **API Documentation** - Swagger UI and detailed documentation
+- 📖 **API Documentation** - Swagger UI documentation
 - 🚀 **Production Ready** - Clean code, proper error handling, CORS support
 
 ## 🚀 Quick Start
@@ -17,7 +17,7 @@ A comprehensive **Spring Boot REST API** for managing book rentals with clean DT
 ### Prerequisites
 - ☕ Java 17+
 - 📦 Maven 3.6+
-- 🗄️ MySQL Database (or H2 for demo)
+- 🗄️ MySQL Database 
 
 ### 1. Clone & Setup
 ```bash
